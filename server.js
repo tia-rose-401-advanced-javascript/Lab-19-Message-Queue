@@ -1,6 +1,6 @@
 'use strict';
 
-require('dotenv').config();
+//  require('dotenv').config();
 const Q = require('@nmq/q/server');
 
 Q.start();
