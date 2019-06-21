@@ -1,0 +1,31 @@
+{
+  "name": "lab-19-message-queue",
+  "version": "1.0.0",
+  "description": "## Project Name",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint --fix \"**/*.js\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tia-rose-401-advanced-javascript/Lab-19-Message-Queue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tia-rose-401-advanced-javascript/Lab-19-Message-Queue/issues"
+  },
+  "homepage": "https://github.com/tia-rose-401-advanced-javascript/Lab-19-Message-Queue#readme"
+}
