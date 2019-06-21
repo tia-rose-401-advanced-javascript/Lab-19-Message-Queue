@@ -10,28 +10,30 @@ Message Queue Server and Logger
 * [travis](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `server.js`
+##### Read file, alter content, write altered content back in the file
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `readFilefileName) -> file data`
+Read the contents of a file and return it
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `writeFile(fileName, text) -> file data`
+Take the data and write it back to the appropriate file
+
+###### `upper(text) -> text`
+Take the text and turn it to all caps
 
 ### Setup
 #### `.env` requirements
-* `PORT` - 3030
+* Q_SERVER
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `npm start` or node server.js ./files/test.txt
   
 #### Tests
 * How do you run tests?
+
+npm run test
+
 * What assertions were made?
 * What assertions need to be / should be made?
 
